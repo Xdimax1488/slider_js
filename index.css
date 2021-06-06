@@ -1,0 +1,51 @@
+body {
+    background: #ebeff0;
+}
+.header {
+    color: rgb(22, 100, 202);
+    text-align: center;
+    margin-top: 5pc;
+    font-family: monospace;
+}
+.main{
+    text-align: center;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    border: 5px solid rgb(22, 100, 202);
+    background-color: rgb(22, 100, 202);
+    overflow: hidden;
+}
+
+.slaider{
+    display: flex;
+    transition: 0.4s all ease-in-out;
+}
+
+.container img {
+    min-width: 33.3333%;
+    display: block;
+    padding: 0.1% 0.4% 0.1% 0%;
+}
+.btnn {
+    display: inline-flex;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+.btn {
+    background-color:salmon;
+    color: rgb(22, 100, 202);
+    font-size: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:sandybrown;
+}
+.left_btn{
+    margin-right: 15%;
+}
+.right_btn{
+    margin-left: 15%;
+}
