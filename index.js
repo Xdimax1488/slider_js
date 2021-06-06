@@ -10,7 +10,7 @@ window.addEventListener('load',slider => {
 
 
 
-    const stepSize = images[0].clientWidth()
+    const stepSize = images[0].clientWidth
     let couter = 0
 
     btnRight.addEventListener('click',() =>{
