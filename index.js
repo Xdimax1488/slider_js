@@ -10,16 +10,16 @@ window.addEventListener('load',slider => {
 
 
 
-    const stepSize = images[0].clientWidth
+    const stepSize = images.clientWidth
     let couter = 0
 
     btnRight.addEventListener('click',() =>{
-        if (couter >= images.length -3){couter= -1}
+        if (couter >= slaider.childElementCount -3){couter= -1}
         couter++;
         slaider.style.transform = 'translateX(' + `${-(stepSize) * counter}px)`;
     })
     btnLeft.addEventListener('click',()=>{
-        if (couter <= 0){ couter = images.length - 2}
+        if (couter <= 0){ couter = slaider.childElementCount - 2}
         couter --;
         slaider.style.transform ='translateX(' + `${-(stepSize) * counter}px)`;
     })
